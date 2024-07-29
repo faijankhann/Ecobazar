@@ -1,0 +1,32 @@
+/* CountdownTimer.css */
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.time-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    color: #fff;
+    font-weight: 500;
+}
+
+.label {
+    font-size: .8rem;
+    color: #fff;
+    color: gainsboro;
+    font-weight: 300;
+}
+
+.com{
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "react-slick": "^0.30.2",
+    "remixicon": "^4.3.0"
+  }
+}

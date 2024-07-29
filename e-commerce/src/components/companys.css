@@ -1,0 +1,38 @@
+.company{
+    padding: 40px 200px;
+    height: fit-content;
+}
+
+.company-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-img{
+    /* padding: 0px 40px; */
+    /* border-right: 2px solid #CCCCCC; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.company-img img{
+
+    width: 100px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.last-img{
+border-right: none !important;
+}
+
+.border{
+    height: 22px;
+    width: 2px;
+    background-color: #cccc;
+}
+

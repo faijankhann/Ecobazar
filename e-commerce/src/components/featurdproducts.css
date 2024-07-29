@@ -1,0 +1,18 @@
+.featurd-products{
+    padding: 0px 200px;
+    height: fit-content;
+
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 20px 0 40px 0 ;
+}
+
+.product-container h2{
+    font-size: 37px;
+    font-weight: 500;
+}
+

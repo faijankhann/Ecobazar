@@ -1,0 +1,54 @@
+.instagram-section {
+  text-align: center;
+  padding: 20px 200px;
+  background-color: #fff;
+}
+
+.instagram-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.instagram-image-dv {
+  margin: 9px;
+  border-radius: 10px;
+  height: fit-content;
+  overflow: hidden;
+  height: 165px;
+  width: 165px;
+  position: relative;
+
+
+}
+
+.instagram-images .instagram-image-dv img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+
+.instagram-images .instagram-image-dv:before {
+  content: "\ee66";
+  font-family: remixicon !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 27px;
+  color: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00b2064f;
+    display: none;
+}
+
+.instagram-images .instagram-image-dv:hover:before{
+  display: flex;
+  transition: all .3s ease-in-out;
+
+}

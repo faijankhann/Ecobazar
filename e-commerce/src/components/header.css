@@ -1,0 +1,166 @@
+.top-section {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    font-size: 12px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.top-inner {
+    display: flex;
+    gap: 18px;
+    cursor: pointer;
+}
+
+
+.login {
+    padding-left: 15px;
+    border-left: .5px solid #d2d2d2;
+}
+
+.mid-head {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px;
+
+}
+
+.logo img {
+    width: 85%;
+}
+
+
+.serch-input {
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-bar{
+    width: 90%;
+    padding: 0px 6px;
+}
+
+.search-bar i{
+    margin-right: 2px;
+}
+
+.serch-input .search-bar input {
+    /* border: 2px solid yellow; */
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 5px 2px;
+    width: 90%;
+
+}
+
+.serch-input button {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #fff;
+    font-weight: 600;
+    height: inherit;
+    padding: 5px 25px;
+    background-color: #00b207;
+    border: none;
+
+}
+
+
+.wish {
+    display: flex;
+    align-items: center;
+}
+
+.wish>i {
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+
+.wish-cart {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-left: .5px solid #d2d2d2;
+}
+
+.wish-cart i {
+    position: relative;
+    font-size: 30px;
+    padding-right: 7px;
+
+
+}
+
+.wish-cart i span{
+    background-color: #00b207;
+    color: #fff;
+    font-size: 10px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: 2px;
+    border: 2px solid #ffff;
+}
+
+.wish-cart i::after {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #00b207;
+}
+
+.wish-cart-txt p:nth-child(1) {
+    font-size: 12px;
+}
+
+.wish-cart-txt p:nth-child(2) {
+    font-weight: bold;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px;
+    color: #d0d0d0;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav .contact{
+    display: flex;
+    align-items: center;
+}
+
+.nav .contact i{
+    font-size: 22px;
+}
+

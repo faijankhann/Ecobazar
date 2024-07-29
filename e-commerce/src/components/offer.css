@@ -1,0 +1,23 @@
+.offer-red{
+    font-size: 14px;
+    background-color: #EA4B48;
+    padding: 4px 10px;
+    border-radius: 6px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+    color: #fff;
+}
+
+.offer-blue{
+    font-size: 14px;
+    background-color: 
+    #2388FF;
+    padding: 4px 10px;
+    border-radius: 6px;
+    position: absolute;
+    top: 4%;
+    left: 5%;   
+    color: #fff;
+}
+

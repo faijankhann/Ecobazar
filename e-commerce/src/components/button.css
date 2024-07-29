@@ -1,0 +1,21 @@
+.btn1-comp{
+    background-color: transparent;
+    border: none;
+    font-size: 19px;
+    color:  #00B207;
+    font-weight: 600;
+}
+
+.btn1-comp{
+    cursor: pointer;
+}
+
+.btn2-comp{
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: none;
+    color: #00B207;
+    font-size: 16px;
+    font-weight: 600;
+
+}

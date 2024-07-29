@@ -1,0 +1,17 @@
+.featurd{
+    margin-block: 20px;
+    height: 100px ;
+    width: 100%;
+    padding: 2px 200px;
+}
+
+.container-box{
+    width: initial;
+    height: 100%;
+    padding: 0 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.3);
+}

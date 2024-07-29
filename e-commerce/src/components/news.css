@@ -1,0 +1,16 @@
+.news{
+    padding: 40px 200px;
+    height: fit-content;
+}
+
+.news-heading{
+    display: flex
+    ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.news-heading h2{
+    font-size: 37px;
+    font-weight: 500;
+}
