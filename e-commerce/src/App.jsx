@@ -1,28 +1,28 @@
-import { Banner } from './components/banner'
-import { Companys } from './components/conpanys'
-import { DiscountBanner } from './components/disscountBanner'
-import { Featurd } from './components/featurd'
-import { FeaturdProducts } from './components/featurdproducts'
-import Footer from './components/fotter'
-import {Header} from './components/header'
-import { Hero } from './components/hero'
-import { HotDeal } from './components/hotDeals'
-import InstagramSection from './components/instagramSection'
-import { News } from './components/news'
-import { PopularProcuct } from './components/popularProduct'
-import { ProductList } from './components/productList1'
-import SubscribeSection from './components/subscribe'
-import { Testomonial } from './components/testomonial'
+import { SaleCards } from './components/saleSection/saleCards'
+import { Companys } from './components/clintCompanySection/conpanys'
+import { DiscountBanner } from './components/descountSection/disscountBanner'
+import { CustomerSupport } from './components/customerSupportSection/customerSupport'
+import { FeaturdProducts } from './components/fraturdProductsSection/featurdproducts'
+import Footer from './components/fotterSection/fotter'
+import {Header} from './components/header/header'
+import { Hero } from './components/heroSection/hero'
+import { HotDeal } from './components/hotDealSection/hotDeals'
+import InstagramSection from './components/InstagramSection/instagramSection'
+import { News } from './components/newsSection/news'
+import { PopularProcuct } from './components/PoularProductsSection/popularProduct'
+import { ProductCatogary } from './components/productCatogarySection/productCatogary'
+import SubscribeSection from './components/subscribeSection/subscribe'
+import { Testomonial } from './components/testomonialSection/testomonial'
 
 export const App = () => {
   return (
     <>
      <Header />
      <Hero />
-     <Featurd/>
-     <ProductList/>
+     <CustomerSupport/>
+     <ProductCatogary/>
      <PopularProcuct/>
-     <Banner/>
+     <SaleCards/>
      <HotDeal/>
      <DiscountBanner/>
      <FeaturdProducts/>
