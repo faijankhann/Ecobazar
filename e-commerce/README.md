@@ -22,3 +22,18 @@ Welcome to **Ecobazar**, an innovative e-commerce platform designed to deliver a
 - **Deployment**: [Heroku](https://heroku.com) / [Netlify](https://netlify.com)
 
 ## 📂 Project Structure
+Ecobazar/
+├── public/
+├── src/
+│ ├── assets/
+│ │ ├── imges
+│ ├── components/
+│ ├── App.js
+│ └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+
+
+
+Replace the placeholders (e.g., `https://via.placeholder.com/...`, `faijankhann`, and `Faijan khan`) with actual content and links relevant to your project. This README template provides a comprehensive overview of your project, making it easy for others to understand and contribute.
