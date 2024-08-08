@@ -16,23 +16,20 @@ Welcome to **Ecobazar**, an innovative e-commerce platform designed to deliver a
 ## 🛠️ Technologies Used
 
 - **Frontend**: React.js, HTML5, CSS3, JavaScript
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Payment Gateway**: Stripe API
 - **Deployment**: [Heroku](https://heroku.com) / [Netlify](https://netlify.com)
 
 ## 📂 Project Structure
-Ecobazar/
-├── public/
-├── src/
-│ ├── assets/
-│ │ ├── imges
-│ ├── components/
-│ ├── App.js
-│ └── index.js
-├── .gitignore
-├── package.json
-└── README.md
+e-commerce/ <br>
+├── public/<br>
+├── src/<br>
+│ ├── assets/<br>
+│ │ ├── imges<br>
+│ ├── components/<br>
+│ ├── App.js<br>
+│ └── index.js<br>
+├── .gitignore<br>
+├── package.json<br>
+└── README.md<br>
 
 
 
