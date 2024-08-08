@@ -36,4 +36,4 @@ Ecobazar/
 
 
 
-Replace the placeholders (e.g., `https://via.placeholder.com/...`, `faijankhann`, and `Faijan khan`) with actual content and links relevant to your project. This README template provides a comprehensive overview of your project, making it easy for others to understand and contribute.
+ `Developed with ❤️ Faijan khan` with actual content and links relevant to your project. This README template provides a comprehensive overview of your project, making it easy for others to understand and contribute.
