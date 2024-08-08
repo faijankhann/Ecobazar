@@ -2,6 +2,14 @@ import "./testomonial.css"
 
 import Slider from "react-slick";
 
+//////////////////////// import images ////////////////////////
+
+import clint1 from "../../assets/images/testomonial-clint/clinte1.jpeg"
+import clint2 from "../../assets/images/testomonial-clint/clinte2.jpeg"
+import clint3 from "../../assets/images/testomonial-clint/clinte3.jpeg"
+
+//////////////////////// import images ////////////////////////
+
 export const Testomonial = () => {
 
     var settings = {
@@ -28,7 +36,7 @@ export const Testomonial = () => {
                     <div className="clint-info">
                         <div className="clint-box">
                             <div className="clint-image">
-                                <img src="clinte1.jpeg" alt="" />
+                                <img src={clint1} alt="" />
                             </div>
 
                             <p>
@@ -51,7 +59,7 @@ export const Testomonial = () => {
                     <div className="clint-info">
                         <div className="clint-box">
                             <div className="clint-image">
-                                <img src="clinte2.jpeg" alt="" />
+                                <img src={clint2} alt="" />
                             </div>
 
                             <p>
@@ -74,7 +82,7 @@ export const Testomonial = () => {
                     <div className="clint-info">
                         <div className="clint-box">
                             <div className="clint-image">
-                                <img src="clinte3.jpeg" alt="" />
+                                <img src={clint3} alt="" />
                             </div>
 
                             <p>

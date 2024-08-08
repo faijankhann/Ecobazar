@@ -7,7 +7,7 @@
 
 .discount-container{
     height: 300px;
-    background: url(discount-banner.jpeg );
+    background: url(../../assets/images/discount-banner/discount-banner.jpeg);
     background-size: cover;
     border-radius: 8px;
     position: relative;

@@ -1,13 +1,21 @@
 import "./newsCard.css"
 import { Btn } from "../global/buttons/button"
 
+//////////////////////// import images ////////////////////////
+
+import image1 from "../../assets/images/news-card/news-image-1.png"
+import image2 from "../../assets/images/news-card/news-image-2.png"
+import image3 from "../../assets/images/news-card/news-image-3.png"
+
+//////////////////////// import images ////////////////////////
+
 export const NewsCard = () => {
     return (
         <div className="nc-wrapper">
             <div className="nc-container">
                 <div className="nc-image">
 
-                    <img src="news-image-1.png" alt="" />
+                    <img src={image1} alt="" />
                     <p>18 <small>NOV</small></p>
                 </div>
                 <div className="nc-txt">
@@ -35,7 +43,7 @@ export const NewsCard = () => {
             <div className="nc-container">
                 <div className="nc-image">
 
-                    <img src="news-image-2.png" alt="" />
+                    <img src={image2} alt="" />
                     <p>15<small>JAN</small></p>
                 </div>
                 <div className="nc-txt">
@@ -63,7 +71,7 @@ export const NewsCard = () => {
             <div className="nc-container">
                 <div className="nc-image">
 
-                    <img src="news-image-3.png" alt="" />
+                    <img src={image3} alt="" />
                     <p>28 <small>FAB</small></p>
                 </div>
                 <div className="nc-txt">

@@ -1,5 +1,16 @@
 import './fotter.css';
 
+//////////////////////// import images ////////////////////////
+
+import image1 from "../../assets/images/payment/ApplePay-logo.png"
+import image2 from "../../assets/images/payment/Discover-logo.png"
+import image3 from "../../assets/images/payment/visa-logo.png"
+import image4 from "../../assets/images/payment/Mastercar-logo.png"
+import image5 from "../../assets/images/payment/sequerpayment-logo.png"
+
+
+//////////////////////// import images ////////////////////////
+
 const Footer = () => {
     return (
         <footer className="footer">
@@ -42,11 +53,11 @@ const Footer = () => {
             <div className="footer-bottom">
                 <p>Ecobazar eCommerce © 2021. All Rights Reserved</p>
                 <div className="payment-methods">
-                    <img src="ApplePay-logo.png" alt="Apple Pay" />
-                    <img src="Discover-logo.png" alt="Visa" />
-                    <img src="visa-logo.png" alt="Discover" />
-                    <img src="Mastercar-logo.png" alt="Mastercard" />
-                    <img src="sequerpayment-logo.png" alt="Secure Payment" />
+                    <img src={image1} alt="Apple Pay" />
+                    <img src={image2} alt="Visa" />
+                    <img src={image3} alt="Discover" />
+                    <img src={image4} alt="Mastercard" />
+                    <img src={image5} alt="Secure Payment" />
                 </div>
             </div>
         </footer>

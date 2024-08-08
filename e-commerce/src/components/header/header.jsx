@@ -1,4 +1,5 @@
 import "../../components/header/header.css"
+import logoImage from '../../assets/images/Logo.png'
 
 export const Header = () => {
     return <header>
@@ -12,7 +13,7 @@ export const Header = () => {
         </div>
         <div className="mid-head">
             <div className="logo">
-                <img src="Logo.png" alt="" />
+                <img src={logoImage} alt="Ecobazar-logo" />
             </div>
             <div className="serch-input">
                 <div className="search-bar">

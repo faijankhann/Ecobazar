@@ -70,7 +70,8 @@
   
   .payment-methods img {
     width: 40px;
-    height: 25px;
+    /* height: 25px; */
+    aspect-ratio: 3/2;
     margin-left: 10px;
     border: 1px solid #515151;
     border-radius: 3px;

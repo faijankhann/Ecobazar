@@ -19,17 +19,17 @@
 }
 
 .banner1{
-    background: url(banner1.png);
+    background: url(../../assets/images/sale-banners/banner1.png);
     background-size: cover;
 }
 
 .banner2{
-    background: url(banner2.png);
+    background: url(../../assets/images/sale-banners/banner2.png);
     background-size: cover;
 }
 
 .banner3{
-    background: url(banner3.png);
+    background: url(../../assets/images/sale-banners/banner3.png);
     background-size: cover;
 }
 

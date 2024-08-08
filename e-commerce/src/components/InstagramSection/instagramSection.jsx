@@ -1,5 +1,16 @@
 import './instagramSection.css';
 
+//////////////////////// import images ////////////////////////
+
+import image1 from "../../assets/images/instagram-bg/insta-image-1.jpeg"
+import image2 from "../../assets/images/instagram-bg/insta-image-2.jpeg"
+import image3 from "../../assets/images/instagram-bg/insta-image-3.jpeg"
+import image4 from "../../assets/images/instagram-bg/insta-image-4.jpeg"
+import image5 from "../../assets/images/instagram-bg/insta-image-5.jpeg"
+import image6 from "../../assets/images/instagram-bg/insta-image-6.jpeg"
+
+//////////////////////// import images ////////////////////////
+
 const InstagramSection = () => {
     return (
         <div className="instagram-section ">
@@ -8,37 +19,37 @@ const InstagramSection = () => {
             <div className="instagram-images">
                 <div className="instagram-image-dv">
                     <a href="#">
-                        <img src="insta-image-1.jpeg" alt="Instagram 1" />
+                        <img src={image1} alt="Instagram 1" />
                     </a>
 
                 </div>
                 <div className="instagram-image-dv">
                     <a href="#">
-                        <img src="insta-image-2.jpeg" alt="Instagram 2" />
+                        <img src={image2} alt="Instagram 2" />
                     </a>
 
                 </div>
                 <div className="instagram-image-dv">
                     <a href="#">
-                        <img src="insta-image-3.jpeg" alt="Instagram 3" />
+                        <img src={image3} alt="Instagram 3" />
                     </a>
 
                 </div>
                 <div className="instagram-image-dv">
                     <a href="#">
-                        <img src="insta-image-4.jpeg" alt="Instagram 4" />
+                        <img src={image4} alt="Instagram 4" />
                     </a>
 
                 </div>
                 <div className="instagram-image-dv">
                     <a href="#">
-                        <img src="insta-image-5.jpeg" alt="Instagram 5" />
+                        <img src={image5} alt="Instagram 5" />
                     </a>
 
                 </div>
                 <div className="instagram-image-dv">
                     <a href="#">
-                        <img src="insta-image-6.jpeg" alt="Instagram 6" />
+                        <img src={image6} alt="Instagram 6" />
                     </a>
 
                 </div>

@@ -12,7 +12,7 @@
 }
 
 .container .inner-hero1 {
-    background: url(big-banner.jpeg);
+    background: url(../../assets/images/hero-banners/big-banner.jpeg);
     background-size: cover;
     background-position: center;
     width: 60%;
@@ -104,7 +104,7 @@
 }
 
 .container .inner-hero2 .bn1 {
-    background: url(BG-1.png);
+    background: url(../../assets/images/hero-banners/BG-1.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -136,7 +136,7 @@
 
 
 .container .inner-hero2 .bn2 {
-    background: url(BG-2.png);
+    background: url(../../assets/images/hero-banners/BG-2.png);
     background-size: cover;
     background-position: center;
     position: relative;
